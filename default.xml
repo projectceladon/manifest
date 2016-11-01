@@ -32,6 +32,9 @@
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="system-vold" path="system/vold" groups="pdk" remote="github" revision="master" />
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
+  <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
+  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="device/android_ia/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
