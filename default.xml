@@ -21,7 +21,6 @@
   <project name="device-androidia-gfx" path="device/android_ia/gfx" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
-  <project name="frameworks-av" path="frameworks/av" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="device-androidia-kernel_config" path="device/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/android_ia/sepolicy" remote="github" revision="master" />
@@ -305,6 +304,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="cec8538e6162907d587c5229b81fc6a025cc1236" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="refs/tags/android-7.1.0_r4"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="9c318e64f58b11b1eda587a5d741d36d2511d42f" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4" upstream="refs/tags/android-7.1.0_r4"/>
