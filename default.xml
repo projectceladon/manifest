@@ -18,7 +18,6 @@
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
   <project name="device-androidia" path="device/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="device/android_ia/kernel" remote="github" revision="master" />
-  <project name="device-androidia-gfx" path="device/android_ia/gfx" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
