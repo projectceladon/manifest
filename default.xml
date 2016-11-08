@@ -7,7 +7,7 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="git://github.com/android-ia/" />
+           fetch="https://github.com/android-ia/" />
 
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
 
