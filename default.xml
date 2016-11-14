@@ -37,6 +37,9 @@
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="device/android_ia/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
+    <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
+  <project name="frameworks-av" path="frameworks/compile/libbcc" remote="github" revision="master" />
+
     <!-- From AOSP. -->
    <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="c7c34b7538275728e162689a2f86ac8f30cd170e" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-7.1.0_r4"/>
@@ -304,7 +307,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="refs/tags/android-7.1.0_r4"/>
   <project name="platform/frameworks/av" path="frameworks/av" revision="9c318e64f58b11b1eda587a5d741d36d2511d42f" upstream="refs/tags/android-7.1.0_r4"/>
-  <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" revision="68577455ab58e33a337144991bdb6a3bce22ebf2" upstream="refs/tags/android-7.1.0_r4"/>
