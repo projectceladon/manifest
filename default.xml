@@ -23,7 +23,6 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="device-androidia-kernel_config" path="device/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/android_ia/sepolicy" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="device/android_ia/sound" remote="github" revision="master" />
   <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
   <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="master" />
   <project name="hardware-broadcom-wlan" path="hardware/broadcom/wlan" remote="github" revision="master" />
