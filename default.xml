@@ -24,7 +24,6 @@
   <project name="device-androidia-kernel_config" path="device/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/android_ia/sepolicy" remote="github" revision="master" />
   <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
-  <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="master" />
   <project name="hardware-broadcom-wlan" path="hardware/broadcom/wlan" remote="github" revision="master" />
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="system-vold" path="system/vold" groups="pdk" remote="github" revision="master" />
@@ -355,6 +354,7 @@
   <project groups="intel_sensors" name="platform/hardware/intel/sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="821e03457cfacd2ef38cd204872e6a371eb6e566" upstream="refs/tags/android-7.1.0_r4"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="a3a619d4d567c8d972f9a91473a8d6d35733ba00" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="marvell_bt" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="e9b9903e0d1c07ce694745f56f8046b0e1b997af" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="8352159ddb0cced7075dbf8310ab621d28859fac" upstream="refs/tags/android-7.1.0_r4"/>
