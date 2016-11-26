@@ -42,6 +42,7 @@
 
     <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project name="frameworks-av" path="frameworks/compile/libbcc" remote="github" revision="master" />
+  <project name="system-extras" path="system/bt" remote="github" revision="master" />
 
     <!-- From AOSP. -->
    <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="c7c34b7538275728e162689a2f86ac8f30cd170e" upstream="refs/tags/android-7.1.0_r4"/>
@@ -493,7 +494,6 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="3a294a68a1b5fb9c71fc04f439e6a10e82aa91ac" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="ea404690d3d502df739da6743574e2e0066515b0" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" upstream="refs/tags/android-7.1.0_r4"/>
-  <project groups="pdk" name="platform/system/bt" path="system/bt" revision="0f36a3246144f138cf250024ca0ec8c7207c1930" upstream="refs/tags/android-7.1.0_r4"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="465b0d86e7c407ed22e8f674906d3fa5e6e53de5" upstream="refs/tags/android-7.1.0_r4"/>
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" revision="6b32d8c3ef43ce1d5280c202733a1e9f17850eac" upstream="refs/tags/android-7.1.0_r4"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" revision="bf76367cd82e6eac86993ce852286a7c36d755bf" upstream="refs/tags/android-7.1.0_r4"/>
