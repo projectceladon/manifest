@@ -32,7 +32,7 @@
   <project name="device-androidia-mixins-kernel" path="device/intel/mixins/groups/kernel" remote="github" revision="master" />
   <project name="device-androidia-mixins-graphics" path="device/intel/mixins/groups/graphics/android_ia" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="device/kernel/android_ia" remote="github" revision="master" />
+  <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel_config" path="device/intel/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/intel/android_ia/sepolicy" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
