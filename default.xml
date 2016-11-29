@@ -12,6 +12,7 @@
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
 
   <!-- from Github repositories -->
+  <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-libdrm" path="external/libdrm" groups="pdk" remote="github" revision="master"/>
   <project name="external-mesa" path="external/mesa" remote="github" revision="master" />
