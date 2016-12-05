@@ -38,7 +38,7 @@
   <project name="device-androidia-kernel_config" path="device/intel/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/intel/android_ia/sepolicy" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
-
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="device/intel/android_ia/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
