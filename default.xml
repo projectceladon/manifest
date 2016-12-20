@@ -30,10 +30,6 @@
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia-mixins-media" path="device/intel/mixins/groups/media" remote="github" revision="master" />
-  <project name="device-androidia-mixins-kernel" path="device/intel/mixins/groups/kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-mixins-audio" path="device/intel/mixins/groups/audio/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-mixins-graphics" path="device/intel/mixins/groups/graphics/android_ia" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel_config" path="device/intel/android_ia/kernel_config" remote="github" revision="master" />
