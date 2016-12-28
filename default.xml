@@ -32,7 +32,6 @@
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-kernel_config" path="device/intel/android_ia/kernel_config" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
   <project name="device-androidia-sound" path="device/intel/android_ia/sound" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
