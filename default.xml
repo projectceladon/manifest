@@ -13,12 +13,12 @@
 
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
-  <project name="hwcomposer" path="vendor/intel/external/hwcomposer" groups="hwcomposer" remote="github" revision="master"/>
-  <project name="external-libdrm" path="external/libdrm" groups="pdk" remote="github" revision="master"/>
-  <project name="external-mesa" path="external/mesa" remote="github" revision="master" />
-  <project name="external-vulkan_hal" path="external/vulkan_hal" remote="github" revision="master" />
-  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
+  <project name="external-drm_hwcomposer" path="vendor/intel/external/android_ia/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
+  <project name="hwcomposer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="github" revision="master"/>
+  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
+  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
+  <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan_hal" remote="github" revision="master" />
+  <project name="external-drm_gralloc" path="vendor/intel/external/android_ia/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
@@ -34,10 +34,10 @@
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="device/intel/android_ia/sound" remote="github" revision="master" />
+  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/sound" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="vendor-openssl" path="vendor/intel/external/wifi" remote="github" revision="master" />
+  <project name="vendor-openssl" path="vendor/intel/external/android_ia/wifi" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
