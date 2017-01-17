@@ -37,7 +37,7 @@
   <project name="device-androidia-sound" path="vendor/intel/external/android_ia/sound" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="vendor-openssl" path="vendor/intel/external/android_ia/wifi" remote="github" revision="master" />
+  <project name="wifi-hal" path="vendor/intel/external/android_ia/wifi-hal" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
