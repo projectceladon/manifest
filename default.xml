@@ -24,7 +24,6 @@
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
-  <project name="hardware-broadcom-wlan" path="hardware/broadcom/wlan" remote="github" revision="master" />
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="system-vold" path="system/vold" groups="pdk" remote="github" revision="master" />
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
@@ -34,11 +33,9 @@
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
   <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="wifi-hal" path="vendor/intel/external/android_ia/wifi" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
@@ -381,6 +378,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
