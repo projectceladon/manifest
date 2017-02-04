@@ -20,6 +20,7 @@
   <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
   <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
   <project name="external-drm_gralloc" path="vendor/intel/external/android_ia/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
+  <project name="minigbm" path="vendor/intel/external/android_ia/minigbm" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
