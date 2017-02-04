@@ -21,6 +21,9 @@
   <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
   <project name="external-drm_gralloc" path="vendor/intel/external/android_ia/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
   <project name="minigbm" path="vendor/intel/external/android_ia/minigbm" remote="github" revision="master" />
+  <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
+  <project name="powertop" path="external/powertop" remote="github" revision="master"/>
+  <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
