@@ -29,7 +29,6 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
-  <project name="system-vold" path="system/vold" groups="pdk" remote="github" revision="master" />
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
   <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
@@ -558,6 +557,7 @@
   <project path="system/update_engine" name="platform/system/update_engine" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
