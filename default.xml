@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-7.1.1_r13"
+  <default revision="refs/tags/android-7.1.1_r6"
            remote="aosp"
            sync-j="4" />
 
@@ -30,11 +30,6 @@
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <project name="powertop" path="external/powertop" remote="github" revision="master"/>
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
-  <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
-  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
-  <project name="bionic" path="bionic" remote="github" revision="master" />
-  <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
-  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
   <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
@@ -51,6 +46,11 @@
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project name="frameworks-av" path="frameworks/compile/libbcc" remote="github" revision="master" />
   <project name="system-extras" path="system/bt" remote="github" revision="master" />
+  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
+  <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
+  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
+  <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
+  <project name="bionic" path="bionic" remote="github" revision="master" />
 
   <!-- From AOSP. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -479,6 +479,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
@@ -561,9 +562,9 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
