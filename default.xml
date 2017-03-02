@@ -44,8 +44,8 @@
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <project name="frameworks-av" path="frameworks/compile/libbcc" remote="github" revision="master" />
-  <project name="system-extras" path="system/bt" remote="github" revision="master" />
+  <project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
+  <project name="system-bt" path="system/bt" remote="github" revision="master" />
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
