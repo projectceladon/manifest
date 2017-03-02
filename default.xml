@@ -17,7 +17,6 @@
 
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="external-drm_hwcomposer" path="vendor/intel/external/android_ia/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
   <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
@@ -25,7 +24,6 @@
   <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
   <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
   <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
-  <project name="external-drm_gralloc" path="vendor/intel/external/android_ia/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
   <project name="minigbm" path="vendor/intel/external/android_ia/minigbm" remote="graphics" revision="master" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <project name="powertop" path="external/powertop" remote="github" revision="master"/>
@@ -51,6 +49,8 @@
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
+  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
+  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
 
   <!-- From AOSP. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
