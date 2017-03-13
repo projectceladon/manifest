@@ -24,7 +24,7 @@
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
     <!-- From public kernel.org -->
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="70a3c2adcce7c51e4f26e929d666237904f6fd31" />
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
