@@ -23,6 +23,8 @@
   <project name="device-androidia-sound" path="vendor/intel/external/audio" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
+  <project name="libva" path="vendor/intel/external/libva" remote="github" revision="master" />
+  <project name="vaapi" path="vendor/intel/external/vaapi" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
 
