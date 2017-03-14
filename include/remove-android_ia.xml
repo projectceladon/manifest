@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/compile/libbcc" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
