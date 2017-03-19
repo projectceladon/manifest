@@ -2,13 +2,13 @@
 <manifest>
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
-  <project name="lighthal" path="vendor/intel/external/lights" remote="github" revision="master"/>
-  <project name="powerhal" path="vendor/intel/external/powerhal" remote="github" revision="master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="external/libdrm" groups="pdk" remote="github" revision="master"/>
-  <project name="external-mesa" path="external/mesa" remote="github" revision="master" />
-  <project name="external-vulkan_hal" path="external/vulkan" remote="github" revision="master" />
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
+  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
+  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
+  <project name="OpenSSL" path="vendor/intel/external/android_ia/openssl" remote="github" revision="master"/>
+  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
+  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
+  <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
   <project name="minigbm" path="external/minigbm" remote="graphics" revision="master" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <project name="powertop" path="external/powertop" remote="github" revision="master"/>
@@ -20,11 +20,11 @@
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/audio" remote="github" revision="master" />
+  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/libva" remote="github" revision="master" />
-  <project name="vaapi" path="vendor/intel/external/vaapi" remote="github" revision="master" />
+  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
+  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
 
