@@ -21,6 +21,9 @@
   <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
+  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="master" />
+  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
+  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
@@ -35,7 +38,6 @@
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="master" />
-  <project name="hardware-intel-audio_media" path="hardware/intel/audio_media" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
