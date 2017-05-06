@@ -4,6 +4,7 @@
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
   <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
+  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
