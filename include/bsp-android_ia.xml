@@ -6,6 +6,7 @@
   <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
   <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
   <project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/>
+  <project name="efivar" path="external/efivar" groups="pdk" remote="github" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
@@ -25,6 +26,7 @@
   <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
+  <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
