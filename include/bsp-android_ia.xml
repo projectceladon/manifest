@@ -7,6 +7,7 @@
   <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
   <project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/>
   <project name="efivar" path="external/efivar" groups="pdk" remote="github" revision="master"/>
+  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
