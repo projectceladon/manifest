@@ -29,6 +29,7 @@
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
   <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
+  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
