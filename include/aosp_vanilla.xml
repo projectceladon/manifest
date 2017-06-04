@@ -411,7 +411,7 @@
   <project groups="aosp,pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project groups="aosp,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project groups="aosp,pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
-  <project groups="aosp,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music"/>
+  <project groups="aosp,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" revision="master"/>
   <project groups="aosp,pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project groups="aosp,apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project groups="aosp,pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
