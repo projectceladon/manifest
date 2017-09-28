@@ -17,7 +17,7 @@
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
-  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
+  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="o_master" />
   <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="o_master" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="o_master" />
