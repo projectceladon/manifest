@@ -14,5 +14,6 @@
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/external/libopus" />
+  <remove-project name="platform/hardware/interfaces" />
 
 </manifest>
