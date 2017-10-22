@@ -12,7 +12,6 @@
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
   <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
-  <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
   <project name="minigbm" path="external/minigbm" remote="graphics" revision="master" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
