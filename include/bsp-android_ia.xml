@@ -49,4 +49,8 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
+
+  <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
+  <project path="art" name="platform/art" groups="pdk" revision="refs/tags/android-8.0.0_r32" />
+
 </manifest>
