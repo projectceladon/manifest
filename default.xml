@@ -15,6 +15,12 @@
   <remote  name="graphics"
            fetch="https://github.com/01org/" />
 
+  <remote  name="intel"
+           fetch="https://github.com/intel" />
+
+  <remote  name="trusty-ia"
+           fetch="https://github.com/trusty-ia" />
+
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove-android_ia.xml" />
   <include name="include/bsp-android_ia.xml" />

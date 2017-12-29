@@ -37,6 +37,37 @@
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
 
+  <!-- ikgt projects -->
+  <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="intel" revision="trusty"/>
+
+  <!-- trusty core projects -->
+  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="master"/>
+  <project name="trusty_external_lk" path="trusty/external/lk"  remote="trusty-ia" revision="master">
+    <copyfile src="makefile" dest="trusty/makefile"/>
+  </project>
+  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="master"/>
+  <project name="trusty_lib" path="trusty/lib" remote="trusty-ia" revision="master" sync-c="true"/>
+
+  <!-- trusty app projects -->
+  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
+
+  <!-- trusty vendor projects -->
+  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
+    <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
+  </project>
+
+  <!-- trusty sand projects -->
+  <project name="trusty_app_sand" path="trusty/app/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="master"/>
+
+  <!-- trusty toolchains projects -->
+  <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
+
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project path="external/libopus" name="external-libopus" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
