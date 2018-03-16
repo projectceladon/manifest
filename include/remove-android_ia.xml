@@ -17,6 +17,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/keymaster" />
 
   <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
   <remove-project name="platform/art" />

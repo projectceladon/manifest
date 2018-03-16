@@ -75,6 +75,7 @@
   <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="master" />
   <project path="system/sepolicy" name="system-sepolicy" remote="github" revision="master" />
+  <project path="system/keymaster" name="system-keymaster" remote="github" revision="master" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
   <project name="system-bt" path="system/bt" remote="github" revision="master" />
   <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
