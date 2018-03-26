@@ -17,7 +17,6 @@
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
-  <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
@@ -82,8 +81,5 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
-
-  <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
-  <project path="art" name="platform/art" groups="pdk" revision="refs/tags/android-8.0.0_r32" />
 
 </manifest>
