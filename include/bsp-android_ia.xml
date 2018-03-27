@@ -69,15 +69,15 @@
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project path="external/libopus" name="external-libopus" remote="github" revision="master" />
+  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
-  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="master" />
+  <project name="system-bt" path="system/bt" remote="github" revision="master" />
+  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
   <project path="system/sepolicy" name="system-sepolicy" remote="github" revision="master" />
   <project path="system/keymaster" name="system-keymaster" remote="github" revision="master" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
-  <project name="system-bt" path="system/bt" remote="github" revision="master" />
-  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
