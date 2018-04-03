@@ -2,7 +2,7 @@
 <manifest>
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="stable"/>
   <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
   <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/-->
@@ -10,9 +10,9 @@
   <project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
-  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
-  <project name="minigbm" path="external/minigbm" remote="graphics" revision="master" />
+  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="stable"/>
+  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="stable" />
+  <project name="minigbm" path="external/minigbm" remote="graphics" revision="stable" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
