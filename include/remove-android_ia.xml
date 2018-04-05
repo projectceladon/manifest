@@ -4,7 +4,6 @@
   <!--remove-project name="platform/bionic" />
   <remove-project name="platform/frameworks/compile/libbcc" /-->
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/system/core" />
