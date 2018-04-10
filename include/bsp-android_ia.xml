@@ -2,15 +2,15 @@
 <manifest>
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="stable"/>
-  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
-  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
-  <!--project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/-->
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="hwcomposer" remote="graphics" revision="stable"/>
+  <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
+  <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="master"/>
+  <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="master"/-->
   <project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/>
-  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
+  <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="intel" revision="stable"/>
-  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="intel" revision="stable" />
+  <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="intel" revision="stable"/>
+  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="intel" revision="stable" />
   <project name="minigbm" path="external/minigbm" remote="graphics" revision="stable" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
@@ -19,18 +19,18 @@
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
-  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="master" />
-  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
+  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="master" />
+  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
+  <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
+  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
   <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="master" />
-  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
-  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
+  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
+  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
-  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
+  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="master" />
+  <project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" />
   <project path="hardware/interfaces" name="hardware-interfaces" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
