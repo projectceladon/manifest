@@ -32,7 +32,7 @@
   <project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" />
   <project path="hardware/interfaces" name="hardware-interfaces" remote="github" revision="master" />
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
-    <copyfile src="subdir_inc.bp" dest="hardware/intel/Android.bp" />
+    <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
 
     <!-- From public kernel.org -->
