@@ -36,7 +36,7 @@
   </project>
 
     <!-- From public kernel.org -->
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
 
   <!-- ikgt projects -->
   <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="intel" revision="trusty"/>
