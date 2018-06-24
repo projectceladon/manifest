@@ -30,7 +30,6 @@
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="master" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
-  <project path="hardware/interfaces" name="hardware-interfaces" remote="github" revision="master" />
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
@@ -70,13 +69,7 @@
   <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <project path="external/libopus" name="external-libopus" remote="github" revision="master" />
-  <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
-  <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="master" />
-  <project name="system-bt" path="system/bt" remote="github" revision="master" />
-  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
-  <project path="system/sepolicy" name="system-sepolicy" remote="github" revision="master" />
   <project path="system/keymaster" name="system-keymaster" remote="github" revision="master" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
