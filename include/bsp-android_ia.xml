@@ -55,6 +55,9 @@
   <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
   <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
 
+  <!-- Media vendor projects -->
+  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="master" />
+
   <!-- trusty vendor projects -->
   <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
     <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
