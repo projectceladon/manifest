@@ -26,7 +26,9 @@
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" >
+     <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
+  </project>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="master" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
@@ -34,6 +36,8 @@
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
+  <project name="capstone" path="vendor/intel/external/capstone" remote="aquynh" revision="master"/>
+  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="master"/>
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
@@ -79,5 +83,5 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
-
+ 
 </manifest>
