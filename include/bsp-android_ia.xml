@@ -69,6 +69,15 @@
   <!-- trusty toolchains projects -->
   <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
 
+
+  <!-- Media vendor projects -->
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master" />
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master" />
+  <project name="libstagefrighthw" path="vendor/intel/external/project-celadon/libstagefright" remote="github" revision="master" />
+  <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="master" />
+  <project name="mediasdk" path="vendor/intel/external/project-celadon/mediasdk_opensource" remote="github" revision="master" />
+
+
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
   <project path="system/keymaster" name="system-keymaster" remote="github" revision="master" />
