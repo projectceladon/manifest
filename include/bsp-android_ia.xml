@@ -60,7 +60,12 @@
   <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
 
   <!-- Media vendor projects -->
-  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="master" />
+  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="stable" />
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="stable" />
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="stable" />
+  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
+  <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
+  <project name="mediasdk" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="stable" />
 
   <!-- trusty vendor projects -->
   <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
