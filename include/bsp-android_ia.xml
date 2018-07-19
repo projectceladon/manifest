@@ -37,7 +37,7 @@
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
   <project name="capstone" path="vendor/intel/external/capstone" remote="aquynh" revision="master"/>
-  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="master"/>
+  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
