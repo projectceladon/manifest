@@ -30,7 +30,7 @@
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="master" />
+  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="ac54f41e42f592897191e3217684cde20a7b193a" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
