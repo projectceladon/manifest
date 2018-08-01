@@ -3,7 +3,6 @@
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <!--remove-project name="platform/bionic" />
   <remove-project name="platform/frameworks/compile/libbcc" /-->
-  <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/libdrm" />
