@@ -36,8 +36,6 @@
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
-  <project name="vendor-intel-external-capstone" path="vendor/intel/external/capstone" remote="github" revision="stable" />
-  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
@@ -65,7 +63,6 @@
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="stable" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
-  <project name="mediasdk" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="stable" />
 
   <!-- trusty vendor projects -->
   <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
@@ -83,7 +80,6 @@
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
-  <project path="system/keymaster" name="system-keymaster" remote="github" revision="master" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
