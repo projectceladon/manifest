@@ -16,22 +16,22 @@
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master_o" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="master" />
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master_o" />
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master_o" />
+  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="master_o" />
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" >
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master_o" >
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="stable" />
-  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master_o" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
