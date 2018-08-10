@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- from Github repositories -->
-  <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="hwcomposer" remote="graphics" revision="stable"/>
-  <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
-  <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="master"/>
+  <project name="external_pystache" path="external/pystache" remote="github" revision="omr1" />
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="hwcomposer" remote="graphics" revision="Celadon_OMR1"/>
+  <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="omr1"/>
+  <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="omr1"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="master"/-->
-  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/>
-  <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="intel" revision="stable"/>
-  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="intel" revision="stable" />
-  <project name="minigbm" path="external/minigbm" remote="graphics" revision="stable" />
+  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="omr1"/>
+  <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="omr1"/>
+  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="omr1"/>
+  <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="intel" revision="Celadon_OMR1"/>
+  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="intel" revision="Celadon_OMR1" />
+  <project name="minigbm" path="external/minigbm" remote="graphics" revision="Celadon_OMR1" />
   <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
-  <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
-  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
-  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
-  <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
-  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
-  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
-  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" >
+  <project name="pciutils" path="external/pciutils" remote="github" revision="omr1"/>
+  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="omr1" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="omr1" />
+  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="omr1" />
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="omr1" />
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="omr1" />
+  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="omr1" />
+  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="omr1" />
+  <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="omr1" />
+  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="omr1" />
+  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="omr1" />
+  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route" remote="github" revision="omr1" />
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="omr1" >
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="stable" />
-  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="omr1" />
+  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="omr1" />
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="omr1" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
-  <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
+  <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="omr1" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
-  <project name="vendor-intel-external-capstone" path="vendor/intel/external/capstone" remote="github" revision="stable" />
-  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
+  <project name="vendor-intel-external-capstone" path="vendor/intel/external/capstone" remote="github" revision="omr1" />
+  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="omr1"/>
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
 
   <!-- ikgt projects -->
-  <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="intel" revision="trusty"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="intel" revision="refs/tags/o_mr1"/>
 
   <!-- trusty core projects -->
-  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="master"/>
-  <project name="trusty_external_lk" path="trusty/external/lk"  remote="trusty-ia" revision="master">
+  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_external_lk" path="trusty/external/lk"  remote="trusty-ia" revision="refs/tags/o_mr1">
     <copyfile src="makefile" dest="trusty/makefile"/>
   </project>
-  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="master"/>
-  <project name="trusty_lib" path="trusty/lib" remote="trusty-ia" revision="master" sync-c="true"/>
+  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_lib" path="trusty/lib" remote="trusty-ia" revision="refs/tags/o_mr1" sync-c="true"/>
 
   <!-- trusty app projects -->
-  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="refs/tags/o_mr1"/>
 
   <!-- Media vendor projects -->
-  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="stable" />
-  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="stable" />
-  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="stable" />
-  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
-  <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
-  <project name="mediasdk" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="stable" />
+  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="omr1" />
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="omr1" />
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="omr1" />
+  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="omr1" />
+  <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="omr1" />
+  <project name="mediasdk" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="omr1" />
 
   <!-- trusty vendor projects -->
-  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
+  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="refs/tags/o_mr1">
     <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
   </project>
 
   <!-- trusty sand projects -->
-  <project name="trusty_app_sand" path="trusty/app/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_sand" path="trusty/app/sand" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="trusty-ia" revision="refs/tags/o_mr1"/>
+  <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="refs/tags/o_mr1"/>
 
   <!-- trusty toolchains projects -->
-  <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
+  <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="refs/tags/o_mr1"/>
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
