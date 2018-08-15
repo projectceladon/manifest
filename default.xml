@@ -26,6 +26,6 @@
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove-android_ia.xml" />
-  <include name="include/bsp-android_ia.xml" />
+  <include name="include/bsp-celadon.xml" />
 
 </manifest>
