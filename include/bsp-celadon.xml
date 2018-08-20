@@ -16,7 +16,7 @@
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="stable" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
@@ -29,7 +29,7 @@
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" >
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="stable" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="stable" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
