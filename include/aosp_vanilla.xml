@@ -102,7 +102,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" />
+  <project path="external/curl" name="platform/external/curl" groups="pdk" revision="f7bbc49291518d581cfc7d771c300c157b944c38"/>
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
