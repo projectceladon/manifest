@@ -39,7 +39,7 @@
   </project>
 
     <!-- From public kernel.org -->
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="7b5835fd37630d18ac0c755329172f6a17c1af29" />
+  <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
   <!--art-extension -->
   <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
   <!-- ikgt projects -->
