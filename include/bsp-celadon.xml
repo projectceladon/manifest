@@ -82,6 +82,8 @@
   <!-- trusty toolchains projects -->
   <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
 
+  <!--High-bandwidth Digital Content Protection Services -->
+  <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
