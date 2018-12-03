@@ -14,7 +14,6 @@
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="github" revision="stable"/>
   <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="github" revision="master" />
   <project name="minigbm" path="external/minigbm" remote="github" revision="master" />
-  <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
