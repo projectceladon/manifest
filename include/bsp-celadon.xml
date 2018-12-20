@@ -7,6 +7,8 @@
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="master"/-->
   <!--project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/-->
+  <project name="libbt-vendor-linux" path="vendor/intel/external/libbt-vendor-linux-intel" remote="github" revision="stable"/>
+  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="stable"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="intel" revision="stable"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" remote="intel" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="master"/>
