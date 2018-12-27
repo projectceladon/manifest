@@ -57,7 +57,7 @@
 
   <!-- trusty app projects -->
   <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="https://github.com/fofeir/trusty_app_keymaster" revision="master"/>
   <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
   <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
 
