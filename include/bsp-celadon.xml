@@ -92,5 +92,7 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
- 
+  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
+  <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master"/>
+
 </manifest>
