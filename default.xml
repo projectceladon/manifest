@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote name="nnhal"
+	  fetch="https://github.com/intel" />
+  <remote name="dldt"
+	  fetch="https://github.com/opencv" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-9.0.0_r18"
