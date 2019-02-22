@@ -5,8 +5,6 @@
   <remove-project name="platform/frameworks/compile/libbcc" /-->
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/mesa3d" />
-  <!-- add libdrm back
   <remove-project name="platform/external/libdrm" />
-  -->
 
 </manifest>
