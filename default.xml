@@ -24,6 +24,9 @@
   <remote  name="aquynh"
            fetch="https://github.com/aquynh" />
 
+  <remote name="opencv"
+           fetch="https://github.com/opencv" />
+
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
