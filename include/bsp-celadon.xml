@@ -45,7 +45,8 @@
   </project>
 
     <!-- From public kernel.org -->
-  <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
+  <!--project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" /-->
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
   <!--art-extension -->
   <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
   <!-- ikgt projects -->
