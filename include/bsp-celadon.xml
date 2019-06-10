@@ -11,7 +11,7 @@
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="opencv" revision="2018"/>
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="opencv" revision="master"/>
   <project name="libbt-vendor-linux" path="vendor/intel/external/libbt-vendor-linux-intel" remote="github" revision="stable"/>
-  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="stable"/>
+  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="intel" revision="stable"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" remote="intel" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="master"/>
