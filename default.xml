@@ -5,6 +5,7 @@
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-9.0.0_r18"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <remote  name="github"
