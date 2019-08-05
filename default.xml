@@ -28,6 +28,9 @@
   <remote name="opencv"
            fetch="https://github.com/opencv" />
 
+  <remote name="mengxl"
+	  fetch="https://github.com/mengxianglinx" />
+
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
