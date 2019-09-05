@@ -3,30 +3,13 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-9.0.0_r45"
+  <default revision="refs/tags/android-10.0.0_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
-
-  <remote name="kernelorg" fetch="https://git.kernel.org/" />
-
-  <remote  name="graphics"
-           fetch="https://github.com/01org/" />
-
-  <remote  name="intel"
-           fetch="https://github.com/intel" />
-
-  <remote  name="trusty-ia"
-           fetch="https://github.com/trusty-ia" />
-
-  <remote  name="aquynh"
-           fetch="https://github.com/aquynh" />
-
-  <remote name="opencv"
-           fetch="https://github.com/opencv" />
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove_vanilla.xml" />
