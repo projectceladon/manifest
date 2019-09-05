@@ -12,7 +12,6 @@
            fetch="https://github.com/projectceladon/" />
 
   <include name="include/aosp_vanilla.xml" />
-  <include name="include/remove_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
 
 </manifest>
