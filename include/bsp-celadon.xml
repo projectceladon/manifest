@@ -12,6 +12,7 @@
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/p/mr0/master"/>
   <project name="libbt-vendor-linux" path="vendor/intel/external/libbt-vendor-linux-intel" remote="github" revision="celadon/p/mr0/master"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" remote="github" revision="celadon/p/mr0/master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="celadon/p/mr0/master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="celadon/p/mr0/master"/>
