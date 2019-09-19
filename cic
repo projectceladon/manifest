@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <default revision="refs/tags/android-9.0.0_r44"
+           remote="aosp"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="github"
+           fetch="https://github.com/projectceladon/" />
+
+  <include name="include/aosp_vanilla.xml" />
+  <include name="include/remove_vanilla.xml" />
+  <remove-project name="platform/external/libdrm" />
+  <remove-project name="platform/hardware/intel/common/libmix" />
+  <include name="include/bsp-cic.xml"/>
+
+</manifest>
+
