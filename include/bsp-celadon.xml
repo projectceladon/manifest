@@ -4,6 +4,7 @@
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="master" />
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="master"/>
+  <project name="compute-runtime" path="hardware/intel/external/opencl/compute-runtime" remote="github" revision="master"/>
   <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master"/>
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
@@ -24,6 +25,7 @@
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
+  <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="master"/>
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
@@ -35,6 +37,7 @@
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>
+  <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master"/>
   <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="master" />
