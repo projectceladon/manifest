@@ -16,6 +16,7 @@
       <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
   </project>
   <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
+  <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="master" />
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="master"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="master"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
@@ -25,6 +26,7 @@
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
+  <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="master" />
   <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="master"/>
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master"/>
@@ -45,6 +47,7 @@
   <project name="pstore-clean" path="vendor/intel/pstore-clean" remote="github" revision="master" />
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="master"/>
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
+  <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="master" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
   <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master"/>
   <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="master"/>
