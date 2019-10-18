@@ -34,7 +34,6 @@
   <project name="log_infra" path="vendor/intel/tools/log_infra" remote="github" revision="master" />
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master"/>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="master"/>
-  <project name="mainline-tracking" path="kernel/mainline-tracking" remote="github" revision="master"/>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
