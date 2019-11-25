@@ -22,6 +22,7 @@
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
 
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="master"/>
 </manifest>
 
 
