@@ -82,7 +82,7 @@
   <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="github" revision="master"/>
   <project name="trusty_platform_sand" path="trusty/platform/sand" remote="github" revision="master"/>
   <project name="trusty_target_sand" path="trusty/target/sand" remote="github" revision="master"/>
-  <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
+
 
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="master" />
