@@ -7,16 +7,16 @@
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="2349430a7b675157a24e4a4fa83e8462c1760ed2" />
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="celadon/p/mr0/master" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="79521446661d73326ac55e4912de45769f02c910" />
-  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="e9fccbc5da82fb2cbed91c91b36cd651b7999a9f" />
+  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="celadon/p/mr0/master" />
   <project name="minigbm" path="external/minigbm" remote="github" revision="8297334d2ce5ee0d43051f9cc3015f6fc513ff10"/>
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" remote="github" revision="27359cb85dd12cefb8e52dcc533e2294b9f95712"/>
   <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="github" revision="6ed232ecfe154442571cfcd3e36b536f43c1ce7a"/>
   <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" remote="github" revision="21d0c84d89a7a58619f7bbb6eec1a909c806a781"/>
-  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="3265065fee7c774918f99ef579a7273051a04707"/>
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/p/mr0/master"/>
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="7ed049dada3d991a8baaa3bed4d2dbb4f5cb417d"/>
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="dd4883499eb1ee5d59449e794cb7728d254c1199" />
   <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="fd6a5c15144f4dc97707ccbd2926d7fe2e5b5fbc" />
-  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="1c106c2d5066721bacd08e99818d28957c5d502e" />
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="celadon/p/mr0/master" />
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/p/mr0/master"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
