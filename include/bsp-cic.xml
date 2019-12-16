@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="celadon/p/mr0/master" />
+  <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" groups="pdk" remote="github" revision="celadon/p/mr0/master" />
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="celadon/p/mr0/master" >
+     <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
+  </project>
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="celadon/p/mr0/master" />
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
   <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/p/mr0/master"/>
