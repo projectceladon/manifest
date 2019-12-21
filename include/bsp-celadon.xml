@@ -8,7 +8,7 @@
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="celadon/p/mr0/master"/-->
   <!--project name="platform_external_efitools" path="external/efitools" remote="github" revision="celadon/p/mr0/master"/-->
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="celadon/p/mr0/master"/>
-  <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="0ef92871b6dd9a9ceed16d184c4595d2618d526f"/>
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/p/mr0/master"/>
   <project name="libbt-vendor-linux" path="vendor/intel/external/libbt-vendor-linux-intel" remote="github" revision="celadon/p/mr0/master"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
