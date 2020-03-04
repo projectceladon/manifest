@@ -2,7 +2,6 @@
 <manifest>
   <project name="aaf" path="vendor/intel/external/project-celadon/aaf" remote="github" revision="master" />
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="master" />
-  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="master"/>
   <project name="compute-runtime" path="hardware/intel/external/opencl/compute-runtime" remote="github" revision="master"/>
   <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master"/>
