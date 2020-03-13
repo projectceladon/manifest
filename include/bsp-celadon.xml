@@ -19,8 +19,6 @@
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="master"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="master"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
-  <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
-  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
