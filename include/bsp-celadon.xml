@@ -15,7 +15,6 @@
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" remote="github" revision="celadon/p/mr0/master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="celadon/p/mr0/master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="celadon/p/mr0/master"/>
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="github" revision="celadon/p/mr0/master"/>
   <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="github" revision="celadon/p/mr0/master" />
   <project name="minigbm" path="external/minigbm" remote="github" revision="celadon/p/mr0/master" />
