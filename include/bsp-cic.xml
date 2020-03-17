@@ -21,7 +21,6 @@
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/p/mr0/master"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
 
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="celadon/p/mr0/master"/>
   <project name="kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" groups="pdk" remote="github" revision="celadon/p/mr0/master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="celadon/p/mr0/cic" >
