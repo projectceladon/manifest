@@ -36,7 +36,6 @@
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>
   <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master"/>
   <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="master" />
   <project name="powerhal" path="hardware/intel/power" remote="github" revision="master" />
