@@ -87,7 +87,6 @@
   <!--High-bandwidth Digital Content Protection Services -->
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/p/mr0/master" />
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
   <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="celadon/p/mr0/master" />
   <project name="bionic" path="bionic" remote="github" revision="celadon/p/mr0/master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="celadon/p/mr0/master"/>
