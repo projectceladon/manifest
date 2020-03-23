@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- from Github repositories -->
-  <project name="external_pystache" path="external/pystache" remote="github" revision="celadon/p/mr0/master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="hwcomposer" remote="github" revision="celadon/p/mr0/master"/>
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="celadon/p/mr0/master"/>
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="celadon/p/mr0/master"/>
