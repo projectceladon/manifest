@@ -854,7 +854,6 @@
     <copyfile dest="trusty/lk_inc.mk" src="lk_inc.mk"/>
   </project>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="fc1a96cfc5495ef6ec2e90253878d2f90d2cc3f3"/>
-  <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="231243f8f87c0a19f0dcd4beafad4cc257ff02f7"/>
   <project branch="master" name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="f01df1179a55177f4845434e060c7ce5f02adb39"/>
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="5f9f9bee2db65dfa8aa0e386a0346a44e126ca16"/>
   
