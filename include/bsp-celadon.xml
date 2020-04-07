@@ -28,7 +28,6 @@
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
-  <project name="log_infra" path="vendor/intel/tools/log_infra" remote="github" revision="master" />
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master"/>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="master"/>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
