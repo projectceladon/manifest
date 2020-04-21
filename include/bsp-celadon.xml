@@ -62,6 +62,7 @@
 
   <!-- Media vendor projects -->
   <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="celadon/p/mr0/master" />
+  <project name="mediasdk-omx" path="hardware/intel/external/mediasdk_omx_il" remote="github" revision="celadon/p/mr0/master"/>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="celadon/p/mr0/master" />
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/p/mr0/master" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="celadon/p/mr0/master" />
