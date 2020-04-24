@@ -99,7 +99,7 @@
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="60ec2abfed7a1f94e2dac78eb6c5faf8b17f8dd5" />
   <project groups="pdk" name="platform/external/ImageMagick" path="external/ImageMagick" revision="c5b97a8387b2ef22dae170732b1e2a218aa5ce25" />
   <project groups="pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" revision="60538504c8521d25f7639f36a36bb15a7232d206" />
-  <project groups="pdk" name="platform/external/aac" path="external/aac" revision="3f61fd191d155e34dddbab2c87c3ce163ff16f63" />
+  <project groups="pdk" name="platform/external/aac" path="external/aac" revision="62623d8d797a3d7314834c59ebc785e738965635" />
   <project groups="pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" revision="8864088e8c2dda0d254658dde8c3d07175dd3bfa" />
   <project groups="pdk" name="platform/external/abi-dumper" path="external/abi-dumper" revision="634cba2fcac606a44263246701599188a8e7e818" />
   <project groups="pdk" name="platform/external/adhd" path="external/adhd" revision="46b1cd08f779a17f14c41429a677217abd4d5d8f" />
