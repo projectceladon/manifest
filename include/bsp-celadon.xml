@@ -58,25 +58,6 @@
 
   <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="master"/>
 
-  <project name="trusty_external_headers" path="trusty/external/headers" remote="github" revision="master"/>
-  <project name="trusty_external_lk" path="trusty/external/lk" remote="github" revision="master">
-      <copyfile src="makefile" dest="trusty/makefile"/>
-  </project>
-  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="github" revision="master"/>
-  <project name="trusty_lib" path="trusty/lib" remote="github" revision="master"/>
-  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="github" revision="master">
-      <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
-  </project>
-
-  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="github" revision="master"/>
-  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="github" revision="master"/>
-  <project name="trusty_app_sample" path="trusty/app/sample" remote="github" revision="master"/>
-  <project name="trusty_app_storage" path="trusty/app/storage" remote="github" revision="master"/>
-
-  <project name="trusty_app_sand" path="trusty/app/sand" remote="github" revision="master"/>
-  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="github" revision="master"/>
-  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="github" revision="master"/>
-  <project name="trusty_target_sand" path="trusty/target/sand" remote="github" revision="master"/>
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
 
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
