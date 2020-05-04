@@ -13,5 +13,7 @@
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
+  <!-- Just addding line to check the commit -->
 
 </manifest>
+
