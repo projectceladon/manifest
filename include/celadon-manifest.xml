@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="manifests" name="manifest"  revision="master" remote="github">
+      <annotation name="readonly" value="false"/>
+  </project>
+
+</manifest>
