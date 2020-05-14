@@ -36,4 +36,6 @@
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="celadon/p/mr0/cic" />
   <project name="metrics-discovery" path="vendor/intel/external/project-celadon/mdapi" remote="github" revision="celadon/p/mr0/master" />
 
+  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="celadon/p/mr0/master" />
+
 </manifest>
