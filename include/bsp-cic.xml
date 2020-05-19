@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
   <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/p/mr0/master"/>
 
