@@ -9,12 +9,12 @@
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="celadon/p/mr0/master" />
   <project name="minigbm" path="external/minigbm" remote="github" revision="8297334d2ce5ee0d43051f9cc3015f6fc513ff10"/>
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/drm-intel" remote="github" revision="27359cb85dd12cefb8e52dcc533e2294b9f95712"/>
-  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa3d-intel" remote="github" revision="6ed232ecfe154442571cfcd3e36b536f43c1ce7a"/>
+  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa3d-intel" remote="github" revision="celadon/p/mr0/cic"/>
   <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" remote="github" revision="21d0c84d89a7a58619f7bbb6eec1a909c806a781"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/p/mr0/master"/>
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="7ed049dada3d991a8baaa3bed4d2dbb4f5cb417d"/>
-  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="dd4883499eb1ee5d59449e794cb7728d254c1199" />
-  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="fd6a5c15144f4dc97707ccbd2926d7fe2e5b5fbc" />
+  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="celadon/p/mr0/master" />
+  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="737bc948b0b9e63a38adafa83fbb06f0aac39ff6" />
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="celadon/p/mr0/master" />
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/p/mr0/master"/>
