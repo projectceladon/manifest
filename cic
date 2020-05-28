@@ -16,6 +16,7 @@
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/hardware/intel/common/libmix" />
   <include name="include/bsp-cic.xml"/>
+  <include name="include/manifest-celadon.xml" />
 
 </manifest>
 
