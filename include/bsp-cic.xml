@@ -32,6 +32,8 @@
   <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="master"/>
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
 
+  <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
+
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="celadon/p/mr0/cic" />
   <project name="metrics-discovery" path="vendor/intel/external/project-celadon/mdapi" remote="github" revision="celadon/p/mr0/master" />
 
