@@ -4,7 +4,7 @@
   <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/p/mr0/master"/>
 
-  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master"/>
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="2349430a7b675157a24e4a4fa83e8462c1760ed2" />
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="celadon/p/mr0/master" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="79521446661d73326ac55e4912de45769f02c910" />
