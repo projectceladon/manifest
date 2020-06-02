@@ -70,5 +70,4 @@
 
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
-  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
 </manifest>
