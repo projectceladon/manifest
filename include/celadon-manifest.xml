@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="manifests" name="manifest"  revision="master" remote="github">
-      <annotation name="readonly" value="false"/>
+      <annotation name="readonly" value="true"/>
   </project>
 
 </manifest>
