@@ -39,4 +39,8 @@
 
   <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="celadon/p/mr0/master" />
 
+  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/p/mr0/master"/>
+
 </manifest>
