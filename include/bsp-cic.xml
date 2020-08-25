@@ -43,4 +43,8 @@
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/p/mr0/master"/>
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/p/mr0/master"/>
 
+  <project name="iio-sensors-hal" path="hardware/intel/sensors-iio" remote="github" revision="master" />
+  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
 </manifest>
