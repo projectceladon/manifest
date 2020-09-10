@@ -60,7 +60,7 @@
 
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
 
-  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="443de4b0f484a1012c66770659be5a97bc859365" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
