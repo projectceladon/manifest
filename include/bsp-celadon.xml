@@ -17,6 +17,7 @@
   <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="master" />
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="2020.4"/>
+  <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="github" revision="2020.4"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="master"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
