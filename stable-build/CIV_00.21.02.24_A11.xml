@@ -3,7 +3,6 @@
   <notice>Celadon_Ring='1'</notice>
   <remote fetch="https://android-review.googlesource.com" name="aosp" />
   <remote fetch="https://github.com/projectceladon/" name="github" />
-  <remote fetch="ssh://android-mirror.devtools.intel.com" name="origin" review="https://android.intel.com" />
   
   <default remote="aosp" revision="refs/tags/android-11.0.0_r37" sync-c="true" sync-j="4" />
   
