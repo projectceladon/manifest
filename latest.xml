@@ -116,6 +116,7 @@
   <project name="linux-intel-lts" path="kernel/lts2018" remote="github" revision="c3a0958f20a526f9b39a9ad5aa45e6d0ccd3dbee"/>
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="0e6fcd85485b09ca287528b16ab1a9090ba968ac"/>
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="1f4c50d2f5aa318b8f11949c92b30145729ec328"/>
+  <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="f6b201c626fc25c5c69407aad63e1ad33613f250"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="8218190e5d614e7ecf4247f465671d67712c305a"/>
   <project name="manifest" path="manifests" remote="github" revision="eb6f56cd6469bd4ba83db12172a3b2f56fcf3f9a">
     <annotation name="readonly" value="true"/>
