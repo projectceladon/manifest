@@ -14,21 +14,21 @@
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="0ef46d5bfc8a1a23c3e520e2f04a33928c052721"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="08985a96a920783d2a755b79b7ca8e65c41bb829"/>
   <project name="compute-runtime" path="hardware/intel/external/opencl/compute-runtime" remote="github" revision="18db07620b6b02b7a539530ecdae6fb5e5b1c416"/>
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="21082ed42afc464505eaa0cfee674ada647893ff"/>
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="244504b7c0bc03a29e750c0adbe04bfd3017cda8"/>
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="d56d632073ff495ca4cf5d5c4ceef069bb5da2ee"/>
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="78a3c8f18b049a4567fef7710768fb831411ea8d"/>
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="183d813ac1584c33a9d418549beb1807f41a0e9f"/>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="0dd3cb9d5ca96b33a20bc6c6dee4200a39c9b942"/>
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="940c0b9a3bd142274eb4e97c27e4793041c4c723"/>
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="2940fae67c4970e7e88faef409ce200f26d8b954"/>
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="e4d0d0c8b41b9d2d676560ce217e5bb81a1fa264"/>
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="b4400970a54e0b551fd62ac03fe11863ac8b3a56">
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="c6d1548ca0717f0484c7ed8ee2d3a4609389ac29">
     <copyfile dest="vendor/intel/hardware/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="vendor/intel/audio/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/audio/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="fe90725923840e721d9e64354c889af0c43e1600"/>
+  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="5923f33991dcd67401ef2a011f7816d309c7de01"/>
   <project groups="device,yukawa,pdk" name="device/amlogic/yukawa" revision="4e048b58ebc38c8064ff62e557b9ef0e99ffce9a"/>
   <project clone-depth="2" groups="device,yukawa,pdk" name="device/amlogic/yukawa-kernel" revision="cef159415bdecaeae569c5438da863a7856474eb"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="6b398d7f47aae5d42d126c49f0879fa20d2ca93b"/>
@@ -117,7 +117,7 @@
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="0e6fcd85485b09ca287528b16ab1a9090ba968ac"/>
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="1f4c50d2f5aa318b8f11949c92b30145729ec328"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="8218190e5d614e7ecf4247f465671d67712c305a"/>
-  <project name="manifest" path="manifests" remote="github" revision="c4e2201fd2da9c861525cf2db385746a4ee48949">
+  <project name="manifest" path="manifests" remote="github" revision="eb6f56cd6469bd4ba83db12172a3b2f56fcf3f9a">
     <annotation name="readonly" value="true"/>
   </project>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="b20139ff66eceb28c4b35762a251ed0d95c39ebe"/>
@@ -892,7 +892,7 @@
   <project groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e"/>
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="e7ea2eda6b15d84e4e56e2189116f5e931e1908d"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="cfa0addaec5bab80e35e7b39607cf2fdf5c1ccc6"/>
-  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="c0f9034ec9ec7e910a60f62f4187dfb11fe0b480"/>
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="d7a820b9f2793c2368114251e1a55504b12e7040"/>
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="fa0efeff4894e36b9c3964376f2c99fae101d147"/>
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="43530f8ef22d6508c696331a7a54fde7cd8460e2"/>
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="297f1b4de7d1325914b3004e498e0638e14c82f7"/>
