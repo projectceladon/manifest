@@ -70,6 +70,7 @@
 
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="master" />
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="master" />
+  <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="main" />
 
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
