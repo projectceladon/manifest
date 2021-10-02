@@ -23,6 +23,7 @@
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
+  <project name="hcitools" path="vendor/intel/external/hcitools-intel" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="master" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
