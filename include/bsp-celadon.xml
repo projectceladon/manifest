@@ -25,17 +25,17 @@
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hcitools" path="vendor/intel/external/hcitools-intel" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
+  <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="master"/>
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="master" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
-  <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="master"/>
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master"/>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="master"/>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
-  <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="master"/>
+  <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>
   <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="master"/>
@@ -59,24 +59,24 @@
   <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="master" />
 
-  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="master"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="0f5c75284b48b9e5d85b509c6e2fb3a8cffed50d"/>
 
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
+
 
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="master" />
-  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
 
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="master" />
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="master" />
-  <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="main" />
-
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="master" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="master" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
+  <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="main" />
+  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
 </manifest>
