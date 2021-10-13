@@ -79,4 +79,5 @@
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="celadon/r/mr0/stable" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="celadon/r/mr0/stable" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="celadon/r/mr0/stable" />
+  <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="celadon/r/mr0/stable" />
 </manifest>
