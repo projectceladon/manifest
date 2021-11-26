@@ -35,6 +35,9 @@
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
   <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="master"/>
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
+  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="master"/>
+  <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="main"/>
+  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>
   <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="master"/>
