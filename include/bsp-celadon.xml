@@ -55,7 +55,7 @@
   <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="master" />
 
-  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="0f5c75284b48b9e5d85b509c6e2fb3a8cffed50d"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="master"/>
 
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
 
