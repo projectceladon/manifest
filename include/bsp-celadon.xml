@@ -16,9 +16,6 @@
   </project>
   <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="master" />
-  <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="main"/>
-  <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="github" revision="main"/>
-  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="github" revision="2dba2072869a189b9fdab3ffa431d3ea49059a19"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="master"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
@@ -38,7 +35,6 @@
   <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="main"/>
   <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
-  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>
   <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master"/>
   <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="master" />
