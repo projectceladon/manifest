@@ -7,6 +7,8 @@
             remote="aosp"
             sync-j="4" />
 
+  <remote  name="intel"
+           fetch="https://github.com/intel/" />  
 
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />

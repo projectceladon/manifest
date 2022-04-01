@@ -23,7 +23,6 @@
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="celadon/r/mr0/stable" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="celadon/r/mr0/stable" />
-  <project name="hcitools" path="vendor/intel/external/hcitools-intel" remote="github" revision="celadon/r/mr0/stable" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/r/mr0/stable" />
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/r/mr0/stable" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="celadon/r/mr0/stable" />
@@ -72,7 +71,7 @@
 
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="celadon/r/mr0/stable" />
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="celadon/r/mr0/stable" />
-  <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="celadon/r/mr0/stable" />
+  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" />
 
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="celadon/r/mr0/stable" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="celadon/r/mr0/stable" />
