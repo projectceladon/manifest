@@ -1,0 +1,24 @@
+name: Run checkbug tasks
+
+on:
+  pull_request:
+    branches: [ tmp/forDebug26 ]
+
+env:
+  PROJECTCELADON_PR_EVENT:  ${{ github.event.action}}
+  PROJECTCELADON_PR_URL: https://github.com/${{github.repository}}/pull/${{ github.event.number }}
+
+jobs: 
+  trigger-jenkins-with-prinfo:
+    runs-on: self-hosted
+
+    steps:
+      - name: Trigger checkbug Jenkins Build with PR Information              
+        run:  curl --location --request POST 'https://cbjenkins-ba.devtools.intel.com/teams-satg-aee-android-ci/generic-webhook-trigger/invoke?token=checkbug' \
+              --header 'Content-Type: application/json' \
+              --data-raw '{
+                "action": ${{ env.PROJECTCELADON_PR_EVENT }} ,
+                "pull_request": {
+                  "html_url": ${{ env.PROJECTCELADON_PR_URL }}
+                }
+              }'
