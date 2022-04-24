@@ -2,6 +2,7 @@ name: Run checkbug tasks
 
 on:
   pull_request:
+    types: [ opened , reopened , closed , edited ]
     branches: [ tmp/forDebug26 ]
 
 env:
