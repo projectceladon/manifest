@@ -3,12 +3,12 @@
 
    <remote  name="aosp"
             fetch="https://android-review.googlesource.com" />
-   <default revision="refs/tags/android-12.0.0_r26"
+   <default revision="refs/tags/android-12.0.0_r28"
             remote="aosp"
             sync-j="4" />
 
   <remote  name="github.intel"
-           fetch="https://github.com/intel/" />  
+           fetch="https://github.com/intel/" />
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 
