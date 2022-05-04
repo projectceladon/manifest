@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Trigger checkbug Jenkins Build with PR Information
         run: |-
-              curl --location --request POST 'https://cbjenkins-ba.devtools.intel.com/teams-satg-aee-android-ci/generic-webhook-trigger/invoke?token=checkbug' \
+              curl --location --request POST  ${{ secrets.CHECKBUG_JENKINS_JOB }}   \
                       --header 'Content-Type: application/json' \
                       --data-raw '{
                         "action": ${{ env.PROJECTCELADON_PR_EVENT }} ,
