@@ -2,7 +2,7 @@ name: Linting the code in Repository
 
 on:
   pull_request:
-    branches: [ tmp/foractions-test ]
+    branches: [ tmp/actions-test ]
 jobs:
   Lintingcode:
     runs-on: self-hosted
