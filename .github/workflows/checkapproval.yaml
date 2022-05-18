@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Trigger checkbug Jenkins Build with PR Information
         run: |-
-              curl --location --request POST  ${{ secrets.CHECKBUG_JENKINS_JOB }}   \
+              curl --location --request POST  ${{ secrets.CHECK_APPROVAL_JENKINSJOB }}   \
                       --header 'Content-Type: application/json' \
                       --data-raw '{
                         "action": ${{ env.PROJECTCELADON_PR_EVENT }} ,
