@@ -14,7 +14,7 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Trigger checkbug Jenkins Build with PR Information
+      - name: Trigger checkapproval Jenkins Build with PR Information
         run: |-
               curl --location --request POST  ${{ secrets.CHECK_APPROVAL_JENKINSJOB }}   \
                       --header 'Content-Type: application/json' \
