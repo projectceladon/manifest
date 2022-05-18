@@ -3,7 +3,7 @@ name: Run checkbug tasks
 on:
   pull_request:
     types: [ opened , reopened , edited, synchronize ]
-    branches: [ tmp/actions-test ]
+    branches: [ tmp/action-test ]
 
 env:
   PROJECTCELADON_PR_EVENT:  ${{ github.event.action}}
