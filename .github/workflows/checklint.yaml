@@ -13,12 +13,8 @@ jobs:
     steps:
       - name: Clean Workspace
         uses: AutoModality/action-clean@v1.1.0
-        run: |
-          mkdir -p /github/workflow/ && cp /data/actions-runner/_work/_temp/_github_workflow/event.json /github/workflow/
       - name: Checkout repository
-        uses: actions/checkout@v2      
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
+        uses: actions/checkout@v2
       - name: Dump GitHub context
         env: 
           GITHUB_CONTEXT: ${{ toJson(github) }}
@@ -29,12 +25,11 @@ jobs:
       #     mkdir -p /github/workflow/ && cp /data/actions-runner/_work/_temp/_github_workflow/event.json /github/workflow/        
       - name: Super-Linter
         id: linting
-        uses: github/super-linter@v4.9.2
+        uses: github/super-linter@v4
         env:      
           DEFAULT_BRANCH: main
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-          GITHUB_EVENT_PATH: /data/actions-runner/_work/_temp/_github_workflow/event.json
       - name: Label on failure
         if: ${{ failure() }}
         uses: actions-ecosystem/action-add-labels@v1
