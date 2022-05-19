@@ -22,7 +22,9 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
           echo "$GITHUB_CONTEXT"
-        
+      - name: Create folder
+        run: |
+          mkdir -p /github/workflow/ && cp /data/actions-runner/_work/_temp/_github_workflow/event.json /github/workflow/        
       - name: Super-Linter
         id: linting
         uses: github/super-linter@v4.9.2
