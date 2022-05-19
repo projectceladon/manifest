@@ -19,6 +19,7 @@ jobs:
         id: linting
         uses: github/super-linter@v4.9.2
         env:
+          GITHUB_ORG: projectceladon      
           DEFAULT_BRANCH: main
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
