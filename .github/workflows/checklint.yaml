@@ -6,6 +6,8 @@ on:
 jobs:
   Lintingcode:
     runs-on: linter
+env:
+  GITHUB_ORG: ${{ github.event.organization }}
 
     steps:
       - name: Clean Workspace

@@ -6,7 +6,7 @@ on:
     branches: [ tmp/forDebug26 ]
 
 env:
-  PROJECTCELADON_PR_EVENT:  ${{ github.event.action}}
+  PROJECTCELADON_PR_EVENT:  ${{ github.event.action }}
   PROJECTCELADON_PR_URL: https://github.com/${{github.repository}}/pull/${{ github.event.number }}
 
 jobs: 
