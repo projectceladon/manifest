@@ -11,16 +11,10 @@ jobs:
     runs-on: linter
 
     steps:
+      - name: Clean Workspace
+        uses: AutoModality/action-clean@v1.1.0
       - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Dump GitHub context
-        env: 
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: |
-          echo "$GITHUB_CONTEXT"
-      # - name: Create folder
-      #   run: |
-      #     mkdir -p /github/workflow/ && cp /data/actions-runner/_work/_temp/_github_workflow/event.json /github/workflow/        
+        uses: actions/checkout@v2       
       - name: Super-Linter
         id: linting
         uses: github/super-linter@v4
@@ -56,6 +50,3 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           comment: "Lint Check Passed"
-      - name: Clean Workspace
-        if: ${{ always() }}
-        uses: AutoModality/action-clean@v1.1.0
