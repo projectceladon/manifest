@@ -11,8 +11,6 @@ jobs:
     runs-on: linter
 
     steps:
-      - name: Clean Workspace
-        uses: AutoModality/action-clean@v1.1.0
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Dump GitHub context
@@ -53,9 +51,11 @@ jobs:
         with:
           labels: LintCheckPassed
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
-
       - name: Comment on Success
         uses: alawiii521/current-pr-comment@v1.0
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           comment: "Lint Check Passed"
+      - name: Clean Workspace
+        if: ${{ always() }}
+        uses: AutoModality/action-clean@v1.1.0
