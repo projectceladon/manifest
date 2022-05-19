@@ -1,1 +1,0 @@
-print("Checking some linting")
