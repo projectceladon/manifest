@@ -1,21 +1,20 @@
-name: Run CheckApproval tasks
+name: Run checkbug tasks
 
 on:
   pull_request:
-    types: [ opened ,submitted, synchronize ]
+    types: [ opened , reopened , closed , edited ]
     branches: [ tmp/forDebug26 ]
 
 env:
   PROJECTCELADON_PR_EVENT:  ${{ github.event.action }}
   PROJECTCELADON_PR_URL: https://github.com/${{github.repository}}/pull/${{ github.event.number }}
-  GITHUB_ORG: ${{ github.event.organization }}
 
 jobs: 
   trigger-jenkins-with-prinfo:
     runs-on: self-hosted
 
     steps:
-      - name: Trigger checkapproval Jenkins Build with PR Information
+      - name: Trigger checkbug Jenkins Build with PR Information
         run: |-
               curl --location --request POST  ${{ secrets.CHECK_APPROVAL_JENKINSJOB }}   \
                       --header 'Content-Type: application/json' \

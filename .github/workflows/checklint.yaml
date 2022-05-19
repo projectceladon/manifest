@@ -3,11 +3,12 @@ name: Linting the code in Repository
 on:
   pull_request:
     branches: [ tmp/forDebug26 ]
+env:
+  GITHUB_ORG: ${{ github.event.organization }} 
+
 jobs:
   Lintingcode:
     runs-on: linter
-env:
-  GITHUB_ORG: ${{ github.event.organization }}
 
     steps:
       - name: Clean Workspace
