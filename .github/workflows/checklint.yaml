@@ -14,12 +14,19 @@ jobs:
       - name: Clean Workspace
         uses: AutoModality/action-clean@v1.1.0
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2      
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
+      - name: Dump GitHub context
+        env: 
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+        
       - name: Super-Linter
         id: linting
         uses: github/super-linter@v4.9.2
-        env:
-          GITHUB_ORG: projectceladon      
+        env:      
           DEFAULT_BRANCH: main
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
