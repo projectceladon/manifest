@@ -3,13 +3,9 @@ name: Linting the code in Repository
 on:
   pull_request:
     branches: [ tmp/forDebug26 ]
-# env:
-#   GITHUB_ORG: ${{ github.event.organization }} 
-
 jobs:
   Lintingcode:
     runs-on: linter
-
     steps:
       - name: Clean Workspace
         uses: AutoModality/action-clean@v1.1.0
