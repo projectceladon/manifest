@@ -18,15 +18,16 @@
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="celadon/r/mr0/stable" />
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="github" revision="celadon/r/mr0/stable"/>
-  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="github" revision="celadon/r/mr0/stable"/>
+  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="github" revision="2dba2072869a189b9fdab3ffa431d3ea49059a19"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="celadon/r/mr0/stable" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="celadon/r/mr0/stable" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/r/mr0/stable" />
+  <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/r/mr0/stable" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="celadon/r/mr0/stable" />
-  <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="celadon/r/mr0/stable"/>
+
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="celadon/r/mr0/stable"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="celadon/r/mr0/stable"/>
@@ -66,17 +67,20 @@
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="celadon/r/mr0/stable" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="celadon/r/mr0/stable" />
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="celadon/r/mr0/stable" />
-  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/r/mr0/stable" />
+
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="celadon/r/mr0/stable" />
 
+  <project name="v4l2-codec2-virtio" path="vendor/intel/external/v4l2_codec2"  remote="github" revision="main" />
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="celadon/r/mr0/stable" />
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="celadon/r/mr0/stable" />
-  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" />
+
 
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="celadon/r/mr0/stable" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="celadon/r/mr0/stable" />
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="celadon/r/mr0/stable" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="celadon/r/mr0/stable" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="celadon/r/mr0/stable" />
+  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" />
+  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/r/mr0/stable" />
   <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="celadon/r/mr0/stable" />
 </manifest>
