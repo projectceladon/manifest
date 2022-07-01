@@ -63,6 +63,7 @@
 
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="master" />
+  <project name="external-pystache" path="external/pystache" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="master" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
