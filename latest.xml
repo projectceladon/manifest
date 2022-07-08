@@ -9,7 +9,7 @@
   
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="a3d75d5c0d581e02df3022eb298ac66f0e031ee6"/>
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="446bb3440f580d37769b480fb17659a603f3d21f"/>
-  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="1aefc65d114dfc4ed48e830cb9cce3124cb7eebe"/>
+  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="4a079b616aefa6a6770eec63719250db45dbd474"/>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="697ee6bdf1d69008a8dda312ce269dea4f2a0616"/>
   <project name="OpenCL-ICD-Loader" path="hardware/intel/external/opencl/opencl-icd-loader" remote="github" revision="b7096d7e1cb1590ef34d70c9ffa7c06992a45765"/>
   <project name="aaf" path="vendor/intel/external/project-celadon/aaf" remote="github" revision="eeb63a2fcc9459ce0933c509bcbdc26955919901"/>
@@ -18,21 +18,21 @@
   <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="8b3f82621f523d6a0b3b389b1481ea4c2be46844"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="79b9ad6cfec8543f29a8169dc9783291c9ad76b1"/>
   <project name="compute-runtime" path="hardware/intel/external/opencl/compute-runtime" remote="github" revision="18db07620b6b02b7a539530ecdae6fb5e5b1c416"/>
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="0e4436ec92a46696687c89e2a558366c19058b03"/>
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="2de0cf728c87a579bbf2a93e88d81fd00be1bcc2"/>
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="4b754a1d3c4c358c722345515a4c97c377d0c770"/>
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="822cfc9d47825ee725ce3f3e6117d014ad4dda1c"/>
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="00f37a3c2c37ed021769452c1a359e261772aa8b"/>
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="9bdc2810504dd6f879adafc1bb75a0fecff9ea67"/>
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="237e949bb1d0bf083a58fb4c3b72d39b5d2e768f"/>
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="940c0b9a3bd142274eb4e97c27e4793041c4c723"/>
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="2940fae67c4970e7e88faef409ce200f26d8b954"/>
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="e4d0d0c8b41b9d2d676560ce217e5bb81a1fa264"/>
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="034311a98d50461c75d9827f32c403c9c5de9493">
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="1edae42313ee0dccf947a37b7ca359241bd26899">
     <copyfile dest="vendor/intel/hardware/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="vendor/intel/audio/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/audio/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="fe6753646b10b87ca091741e9fdff4865c39f7be"/>
+  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="8ad85c84e3907d77649f50c6cc5bf949f37cfeaf"/>
   <project groups="device,yukawa,pdk" name="device/amlogic/yukawa" revision="6124e3c96ff71f727917490bd35562da0762c5ba"/>
   <project clone-depth="2" groups="device,yukawa,pdk" name="device/amlogic/yukawa-kernel" revision="efc0c9f20e9f935a3bc1e085271c09daf6fd4a88"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="f2c5221771026d9d536e784240f0fbe3374a4b9a"/>
@@ -94,15 +94,16 @@
   <project groups="pdk" name="device/sample" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8"/>
   <project groups="device,beagle_x15,pdk" name="device/ti/beagle-x15" path="device/ti/beagle_x15" revision="50b5e88b7cf26dc58c5189aa1bb7e9b3b5e9ef0f"/>
   <project clone-depth="1" groups="device,beagle_x15,pdk" name="device/ti/beagle-x15-kernel" path="device/ti/beagle_x15-kernel" revision="517b46d6a94f0d686e19ab9849055e53b17604d7"/>
+  <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer" remote="github" revision="6a7b3af93b83f3540427ea9ec0ec1ecde88b1666"/>
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="31cb8b35966ec095e6ac1970b0b51f6fdbcc2f58"/>
-  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="db97d9755b5b54da18fa8a1766471f18a0ceffbd"/>
-  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="85ab5c20ec2428f0f43f2dad87b577d6f817ca21"/>
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="955da02439787aa7f6177eadef3223b183ee2610"/>
+  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="79b2b93de31cb3110f6134a924cc705287454a9b"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="af111a7f4f1e1f6b76c9f5effe1d9e128cefc526"/>
-  <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="4a7583394976014252eb4a312408025b6fd77378"/>
+  <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="5ae863e629801ef8888b83a73aff627d32d6e629"/>
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="a590702b5075a3c5f09854a3b10a2ff99abdcbb6"/>
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="61fdc4e286399d2caeb8817c3a8386e847fa74ef"/>
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="ffce184560f0affe10bda475dc3a3f8119927932"/>
-  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="90d03cb69c0a581c6f756aab1a2faac7455813bd"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="03ab20ace830da9b143e129b0cb99cd6837b7e4f"/>
   <project name="intel-graphics-compiler" path="hardware/intel/external/opencl/intel-graphics-compiler" remote="github" revision="589b41d25affe14f090ef0468b850b7e796b34ed"/>
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="1217e960e27d68be36fb9607a9be368848fa9f8d"/>
   <project groups="vts,pdk" name="kernel/configs" revision="d44ccbb2240338658a1311e0a62572fff35c412e"/>
@@ -121,7 +122,7 @@
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" revision="8bd5dbee62d3a4e2666123e138f34939d9162b07"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/mainline/arm64" revision="2e8df04262421c794cd37fb20fe3cb358d2c2d6c"/>
   <project groups="vts,pdk" name="kernel/tests" revision="93c860f8c7a8c7772723104f715b2e51d8b6ea3e"/>
-  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="735d52366faac05de434e75ba95fc84b234f09a8"/>
+  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="9703e1e5c5a61d6566a042d8de029f2461b9f6aa"/>
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel" remote="github" revision="a61bf69351c5fd819a55bb672c71df6522b228c1"/>
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="e87fce8e955168f9f5ac38bd85c8498eabfe2212"/>
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="c312182955aafa1379f97b3836afcc1692688225"/>
@@ -132,18 +133,18 @@
     <annotation name="readonly" value="true"/>
   </project>
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="b0106010f35773684ad80790d591c8f30c5427df"/>
-  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="32f6e0a8092694a4f801dcc013a2a34af4563b3a"/>
+  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="88a3d391610d9e4addadf1b75514274de2f5bc02"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="8218190e5d614e7ecf4247f465671d67712c305a"/>
-  <project name="manifest" path="manifests" remote="github" revision="a883bc28d0df7ab3882f07c220b80ebf1cb8708a">
+  <project name="manifest" path="manifests" remote="github" revision="1ece2a8464efe5f71e7083a0c9cd0084fbbbb312">
     <annotation name="readonly" value="true"/>
   </project>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="d0836019c6b69d3eebc2244761e2112f42c3eab1"/>
   <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="d2079f3399fd154e564306f46c98ec3df6ff2a49"/>
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="71b443de17b0b76f629bb7f49c9ca363e8f653dc"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="cf4e5f2652865a1d0a1fe3c2c4c4a71d28bb36a6"/>
-  <project name="minigbm" path="hardware/intel/external/minigbm-intel" remote="github" revision="eb139c2c9cccc872025fac28aa1c1b7f2f8fab54"/>
+  <project name="minigbm" path="hardware/intel/external/minigbm-intel" remote="github" revision="6d9cbb6ad52a3af13006ea33057df579ba45ffb0"/>
   <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="3a2fb458113c6918b0a3f1eb11b152e93da34db3"/>
-  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="3362679522ce58fa5ef5a167e5eadcb0e4b65c4d"/>
+  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="2a0f3b9a607a5bfdd9c01cb85f154532b4de5196"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="7c617388b51fcecb7547b9377bf0670f40dd6947"/>
   <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="86aca9584a835d0f0b17af3f5af96631732ec254"/>
   <project groups="pdk" name="platform/art" path="art" revision="b534f2fbc0308caf3e33f5054890a44a84664eca"/>
@@ -247,7 +248,6 @@
   <project groups="pdk" name="platform/external/doclava" path="external/doclava" revision="1f677215d8bbf59b778ebf0708768338c931d40b"/>
   <project groups="pdk" name="platform/external/dokka" path="external/dokka" revision="5c9765afee54d2c3655798ee0e870d5c70555b67"/>
   <project groups="pdk" name="platform/external/downloader" path="external/downloader" revision="7a160e2c74676e090af0bf111c2b231a6de864f5"/>
-  <project groups="drm_hwcomposer,pdk-fs" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" revision="37b57553a14517b4be01ea98ff9a165e2d05214f"/>
   <project groups="pdk" name="platform/external/drrickorang" path="external/drrickorang" revision="7d57a18bb7af7c77aa71b6856553bdf09c1bcd24"/>
   <project groups="pdk" name="platform/external/dtc" path="external/dtc" revision="a09335b8cf525f24c299b21d67634e0f58295ac0"/>
   <project groups="pdk" name="platform/external/dynamic_depth" path="external/dynamic_depth" revision="ffcab073fb8d83e80ba805999fb45a4baa89b433"/>
@@ -1154,10 +1154,10 @@
   <project groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="5f4c0856ce432363d840f4e9684b4803ae17b51a"/>
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="6122c3bd21fad0297e4c8c76ccb2cfa4ec6b1adb"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="b3a490a36fe5806d729716a6af3a80b20da22504"/>
-  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="81b458af3407735ee0aede15c1cba5d2cc40cbcb"/>
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="2bcb2b960402f310e6d4297e5d12929c50d93c87"/>
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="7a30050592e20f494ad331b90737913d59167c3f"/>
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="6c8284375f365c7adf90f681cc8c1d3afe1c816c"/>
-  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="2c822b87ac31d4a49e2e3bad41d258921a4d6aa6"/>
+  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="2a3b25bfca1b7b14314fdc158f759641a61f1890"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
