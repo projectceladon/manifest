@@ -66,6 +66,7 @@
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="master" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
+  <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer"  remote="github" revision="main" />
 
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="master" />
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
