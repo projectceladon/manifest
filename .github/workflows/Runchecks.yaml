@@ -3,7 +3,7 @@ name: Run CheckApproval CheckBug CheckLint tasks
 
 on:
   pull_request:
-    types: [opened, edited, synchronize, reopened, edited]
+    types: [opened, synchronize, reopened, labeled]
     branches: "**"
   pull_request_review:
     types: [submitted]
@@ -13,6 +13,5 @@ jobs:
     uses: projectceladon/celadonworkflows/.github/workflows/Triggerall.yml@main
     with:
       PR_EVENT: ${{ github.event.action }}
-      PR_URL: https://github.com/${{github.repository}}/pull/${{ github.event.number }}
-    secrets: inherit
-
+      PR_URL: https://github.com/${{github.repository}}/pull/${{ github.event.pull_request.number }}
+      PR_LABEL: ${{ github.event.label.name }}
