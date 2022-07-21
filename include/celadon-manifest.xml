@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifests" name="manifest"  revision="master" remote="github">
+  <project path="manifests" name="manifest"  revision="celadon/s/mr0/stable" remote="github">
       <annotation name="readonly" value="true"/>
   </project>
 
