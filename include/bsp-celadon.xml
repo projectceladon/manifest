@@ -75,8 +75,10 @@
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="master" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
   <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="github.intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" >
-	<annotation name="readonly" value="true"/>
+      <annotation name="readonly" value="true"/>
   </project>
+
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
-  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="main" />
+  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="8b980c44db8347e1e954592f62f48af7213f3692"/>
+
 </manifest>
