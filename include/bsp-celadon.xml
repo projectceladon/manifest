@@ -79,6 +79,6 @@
   </project>
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
-  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="8b980c44db8347e1e954592f62f48af7213f3692"/>
+  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="main"/>
 
 </manifest>
