@@ -79,4 +79,5 @@
   </project>
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/s/mr0/stable" />
   <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="celadon/s/mr0/stable" />
+  <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="celadon/s/mr0/stable" />
 </manifest>
