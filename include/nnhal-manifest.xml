@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="herumi"
+           fetch="https://github.com/herumi/" />
+  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="celadon/s/mr0/stable"/>
+  <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/s/mr0/stable"/>
+  <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="github" revision="celadon/s/mr0/stable"/>
+  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="github" revision="celadon/s/mr0/stable"/>
+  <project name="xbyak" path="vendor/intel/external/project-celadon/xbyak" remote="herumi" revision="master"/>
+</manifest>
