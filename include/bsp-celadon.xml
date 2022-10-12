@@ -78,7 +78,7 @@
   <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="github.intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" >
       <annotation name="readonly" value="true"/>
   </project>
-
+  <project name="v4l2-codec2-virtio" path="vendor/intel/external/v4l2_codec2" remote="github" revision="main" />
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
   <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="main"/>
   <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="main"/>
