@@ -81,5 +81,5 @@
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
   <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="main"/>
-  <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="main"/>
+  <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="refs/tags/lts-v5.15.44-221031"/>
 </manifest>
