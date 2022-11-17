@@ -25,7 +25,7 @@
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="7aa1788dcb84c62fe67351a14cb8e810e428f136"/>
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="7d5376bcbfd651082fe54e7284f76481b4517fcf"/>
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="e8defeee9ec0dd2c21f7e6d7087bbed8008a21f8"/>
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="eb0d7fa5ab10bc40f7d03052aa8d0854426688a5">
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="69fc59728e4c5fe223199b342cd48ccc2ea3ab23">
     <copyfile dest="vendor/intel/hardware/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="vendor/intel/audio/Android.bp" src="Android_intel.bp"/>
     <copyfile dest="hardware/intel/Android.bp" src="Android_intel.bp"/>
@@ -139,9 +139,9 @@
   </project>
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="b0106010f35773684ad80790d591c8f30c5427df"/>
   <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="8b980c44db8347e1e954592f62f48af7213f3692"/>
-  <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="5261354839c2003b07d4f52dd10c2fd0a2b66240"/>
+  <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="7c5c8ab3aea678d9eb804b34a83f87d0101f6d4d"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="8f4b651a3a71f8222fd26a2bf01d6dfa24c1bc4f"/>
-  <project name="manifest" path="manifests" remote="github" revision="acd1df0d8569c450c998cb983167c99f559c6a11">
+  <project name="manifest" path="manifests" remote="github" revision="f6b5a63d2f47ea2d8373f79ae021775504b0cc64">
     <annotation name="readonly" value="true"/>
   </project>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="79c943a2bfcd4662b5d26417febf2c1a1983a339"/>
