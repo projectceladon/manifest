@@ -78,6 +78,6 @@
 	<annotation name="readonly" value="true"/>
   </project>
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/s/mr0/stable" />
-  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="celadon/s/mr0/stable" />
+  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="refs/tags/lts-v5.10.118-20221103-r1" />
   <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="celadon/s/mr0/stable" />
 </manifest>
