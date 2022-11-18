@@ -18,8 +18,8 @@
   <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="d95f4d62f8595de7ada2acdcce5280f7276b9365"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="3d0934d8e2ba3dc4927ff3dfc0d818ad1839fbb7"/>
   <project name="compute-runtime" path="hardware/intel/external/opencl/compute-runtime" remote="github" revision="bc32f6013cb8de4370d45b8a8b5a6815daa63d0c"/>
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="69c9e270328d14ec57b454d7eccac75f065b729c"/>
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="329eae3901a6db24811ccb9d31dbe8dc37b7160c"/>
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="a61f14ac48850930c978bf5f457923c0351259fd"/>
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="d927498c1b857af3ef70b26678c952e6af2e026b"/>
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="c777350062920468f153d608f1a16e12b2bf989c"/>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="f9c7a349d9e17cff6e076d23c0a98d4b7feab01b"/>
   <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="7aa1788dcb84c62fe67351a14cb8e810e428f136"/>
@@ -1238,5 +1238,5 @@
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="fdf1a65258522edf18a0a1768fbafa61ed07e598"/>
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="3c73fedf4f58d7d3c729dba3ba5b09f0732bea27"/>
   <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="fc4ba880270fca225a3d2356f4787ca7e0b3ed3e"/>
-  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="ba27b684a6f4b7b336aa1200b453c9501f913cfa"/>
+  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="6157235b61e5ba8f2cb8efd789e203d1d883783d"/>
 </manifest>
