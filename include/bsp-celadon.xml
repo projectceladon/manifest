@@ -68,19 +68,14 @@
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
   <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer"  remote="github" revision="main" />
 
-  <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="master" />
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="master" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="master" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
   <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="main" />
-  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="github.intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" >
-      <annotation name="readonly" value="true"/>
-  </project>
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
-  <project name="linux-intel-lts2020-chromium" path="kernel/lts2020-chromium" remote="github" revision="main"/>
   <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="main"/>
   <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="main" />
 </manifest>
