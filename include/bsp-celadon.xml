@@ -47,8 +47,7 @@
   <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master"/>
   <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="master"/>
 
-  <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
-
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20221109"/>
 
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master"/>
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="master" />

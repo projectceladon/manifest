@@ -11,6 +11,8 @@
            fetch="https://github.com/intel/" />
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
+  <remote name="kernel.googlesource"
+	  fetch="https://kernel.googlesource.com/" />
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
