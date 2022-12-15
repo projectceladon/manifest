@@ -76,5 +76,6 @@
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
   <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="main"/>
+  <project name="linux-intel-lts2021" path="kernel/linux-intel-lts2021" remote="github" revision="main"/>
   <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="main" />
 </manifest>
