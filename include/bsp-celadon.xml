@@ -74,7 +74,7 @@
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="celadon/s/mr0/stable" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="celadon/s/mr0/stable" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="celadon/s/mr0/stable" />
-  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="github.intel" revision="refs/tags/lts-v5.10.100-civ-android-220303T165800Z" >
+  <project name="linux-intel-lts" path="kernel/lts2020-yocto" remote="github.intel" revision="refs/tags/lts-v5.10.145-civ-android-221027T031053Z" >
 	<annotation name="readonly" value="true"/>
   </project>
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/s/mr0/stable" />
