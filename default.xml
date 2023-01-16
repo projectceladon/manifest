@@ -9,7 +9,9 @@
 
   <remote  name="github.intel"
            fetch="https://github.com/intel/" />
-  <remote  name="github"
+  <remote name="kernel.googlesource"
+          fetch="https://kernel.googlesource.com/" />
+   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 
   <include name="include/aosp_vanilla.xml" />
