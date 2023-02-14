@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="herumi"
+      fetch="https://github.com/herumi/" />
+  <remote  name="openvinotoolkit"
+      fetch="https://github.com/openvinotoolkit/" />
+  <remote  name="oneapi"
+      fetch="https://github.com/oneapi-src/" />
+  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master" />
+  <project name="openvino" path="vendor/intel/external/project-celadon/dldt" remote="openvinotoolkit" revision="b76c90374501ac461d89a8fba44335741d066ccc" >
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="openvinotoolkit" revision="1a4c072253f84b313a2fb14cbcd4ce3624bd955f" >
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="oneapi" revision="2dba2072869a189b9fdab3ffa431d3ea49059a19" >
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="xbyak" path="vendor/intel/external/project-celadon/xbyak" remote="herumi" revision="8d1e41b650890080fb77548372b6236bbd4079f9" >
+    <annotation name="readonly" value="true"/>
+  </project>
+</manifest>
