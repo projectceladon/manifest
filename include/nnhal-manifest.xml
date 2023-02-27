@@ -6,17 +6,24 @@
       fetch="https://github.com/openvinotoolkit/" />
   <remote  name="oneapi"
       fetch="https://github.com/oneapi-src/" />
-  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master" />
-  <project name="openvino" path="vendor/intel/external/project-celadon/dldt" remote="openvinotoolkit" revision="b76c90374501ac461d89a8fba44335741d066ccc" >
+  <remote  name="zeux"
+      fetch="https://github.com/zeux/" />
+  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master" >
+      <annotation name="readonly" value="true"/>
+  </project>
+  <project name="openvino" path="vendor/intel/external/project-celadon/openvino" remote="openvinotoolkit" revision="refs/tags/2022.3.0" >
     <annotation name="readonly" value="true"/>
   </project>
-  <project name="oneDNN" path="vendor/intel/external/project-celadon/mkl-dnn" remote="openvinotoolkit" revision="1a4c072253f84b313a2fb14cbcd4ce3624bd955f" >
+  <project name="oneDNN" path="vendor/intel/external/project-celadon/oneDNN" remote="openvinotoolkit" revision="v2.7_for_ie_releases_2022_3" >
     <annotation name="readonly" value="true"/>
   </project>
-  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="oneapi" revision="2dba2072869a189b9fdab3ffa431d3ea49059a19" >
+  <project name="oneTBB" path="vendor/intel/external/project-celadon/oneTBB" remote="oneapi" revision="refs/tags/v2021.8.0" >
     <annotation name="readonly" value="true"/>
   </project>
-  <project name="xbyak" path="vendor/intel/external/project-celadon/xbyak" remote="herumi" revision="8d1e41b650890080fb77548372b6236bbd4079f9" >
+  <project name="xbyak" path="vendor/intel/external/project-celadon/xbyak" remote="herumi" revision="refs/tags/v6.63" >
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="pugixml" path="vendor/intel/external/project-celadon/pugixml" remote="zeux" revision="refs/tags/v1.13" >
     <annotation name="readonly" value="true"/>
   </project>
 </manifest>
