@@ -71,7 +71,6 @@
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
   <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="master" />
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="master" />
-  <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
   <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="main" />
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
