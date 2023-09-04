@@ -8,7 +8,7 @@
       fetch="https://github.com/oneapi-src/" />
   <remote  name="zeux"
       fetch="https://github.com/zeux/" />
-  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master" >
+  <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="celadon/t/mr0/master" >
       <annotation name="readonly" value="true"/>
   </project>
   <project name="openvino" path="vendor/intel/external/project-celadon/openvino" remote="openvinotoolkit" revision="refs/tags/2022.3.0" >
