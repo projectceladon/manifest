@@ -14,23 +14,22 @@
   </project>
   <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" />
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="master"/>
-  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master"/>
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
-  <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
-  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master"/>
+  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="master"/>
-  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
   <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="master"/>
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="main" />
-  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="master"/>
-  <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="main"/>
-  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main"/>
+  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master"/>
   <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="master" />
@@ -41,9 +40,6 @@
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
   <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master"/>
   <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="master"/>
-
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20221109"/>
-
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master"/>
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="master" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="master" />
@@ -55,11 +51,8 @@
   <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="master"/>
 
 
-  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="master" />
-  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="master" />
-  <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
   <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer"  remote="github" revision="main" />
 
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
@@ -72,4 +65,25 @@
   <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="main"/>
   <project name="linux-intel-lts2021" path="kernel/linux-intel-lts2021" remote="github" revision="main"/>
   <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="main" />
+  <project name="linux-intel-lts2022-chromium" path="kernel/lts2022-chromium" remote="github" revision="main"/>
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="libva" path="hardware/intel/external/libva" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master">
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="main">
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main">
+    <annotation name="readonly" value="true"/>
+  </project>
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="v2.4.115" />
+  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="v23.1.1" />
+  <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="upstream_main" />
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20230625"/>
+
 </manifest>

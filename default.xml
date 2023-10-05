@@ -3,7 +3,7 @@
 
    <remote  name="aosp"
             fetch="https://android-review.googlesource.com" />
-   <default revision="refs/tags/android-13.0.0_r43"
+   <default revision="refs/tags/android-14.0.0_r2"
             remote="aosp"
             sync-j="4" />
 
@@ -15,6 +15,7 @@
 	  fetch="https://kernel.googlesource.com/" />
 
   <include name="include/aosp_vanilla.xml" />
+  <include name="include/aosp_legacy.xml" />
   <include name="include/bsp-celadon.xml" />
   <include name="include/celadon-manifest.xml" />
   <include name="include/nnhal-manifest.xml" />
