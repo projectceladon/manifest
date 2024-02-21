@@ -84,6 +84,6 @@
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="v2.4.115" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="v23.1.1" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="upstream_main" />
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20231111"/>
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20240115"/>
   <project name="kernel-modules" path="kernel/modules" remote="github" revision="master"/>
 </manifest>
