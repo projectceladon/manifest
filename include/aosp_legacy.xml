@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c"  groups="pdk,linux,x86" clone-depth="1" />
-</manifest>
+<project path="external/sdv/vsomeip" name="platform/external/sdv/vsomeip" revision="refs/tags/android-14.0.0_r37" groups="pdk" />
+	</manifest>
