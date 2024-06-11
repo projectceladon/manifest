@@ -18,6 +18,8 @@
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="master" />
   <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="master" />
+  <project name="efiwrapper" path="hardware/intel/efiwrapper" remote="github" revision="main" />
+  <project name="coreboot" path="hardware/intel/external/coreboot" remote="github" revision="main" />
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="master"/>
   <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="master"/>
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master">
