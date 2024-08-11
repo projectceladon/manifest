@@ -78,12 +78,8 @@
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master">
     <annotation name="readonly" value="true"/>
   </project>
-  <project name="oneVPL" path="vendor/intel/external/onevpl" remote="github" revision="main">
-    <annotation name="readonly" value="true"/>
-  </project>
-  <project name="oneVPL-Intel-GPU" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main">
-    <annotation name="readonly" value="true"/>
-  </project>
+  <project name="libvpl" path="vendor/intel/external/onevpl" remote="github" revision="main" />
+  <project name="vpl-gpu-rt" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="main" />
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="v2.4.115" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="main" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="upstream_main" />
