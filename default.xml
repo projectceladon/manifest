@@ -3,9 +3,9 @@
 
    <remote  name="aosp"
             fetch="https://android-review.googlesource.com" />
-   <default revision="refs/tags/android-14.0.0_r27"
+   <default revision="refs/tags/android-15.0.0_r1"
             remote="aosp"
-            sync-j="4" />
+            sync-j="7" />
 
   <remote  name="github.intel"
            fetch="https://github.com/intel/" />
