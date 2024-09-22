@@ -18,6 +18,5 @@
   <include name="include/aosp_legacy.xml" />
   <include name="include/bsp-celadon.xml" />
   <include name="include/celadon-manifest.xml" />
-  <include name="include/nnhal-manifest.xml" />
 
 </manifest>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="master" />
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="master"/>
   <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master"/>
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
