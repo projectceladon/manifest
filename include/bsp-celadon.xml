@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/u/mr0/master" />
-  <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="celadon/u/mr0/master" />
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="celadon/u/mr0/master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="celadon/u/mr0/master" >
+  <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/u/core" />
+  <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/u/core"/>
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="celadon/u/core"/>
+  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="celadon/u/core" />
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="celadon/u/core" />
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="celadon/u/core" >
       <copyfile dest="vendor/intel/hardware/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="vendor/intel/audio/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="hardware/intel/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="hardware/intel/audio/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="celadon/u/mr0/master" />
-  <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="celadon/u/mr0/master" />
-  <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="celadon/u/mr0/master" />
-  <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/u/mr0/master" />
-  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="celadon/u/mr0/master" />
-  <project name="efiwrapper" path="hardware/intel/efiwrapper" remote="github" revision="celadon/u/mr0/master" />
-  <project name="coreboot" path="hardware/intel/external/coreboot" remote="github" revision="celadon/u/mr0/master" />
-  <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="celadon/u/mr0/master" />
-  <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="celadon/u/mr0/master" />
-  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="celadon/u/mr0/master" />
-  <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="celadon/u/mr0/master" />
-  <project name="powerhal" path="hardware/intel/power" remote="github" revision="celadon/u/mr0/master" />
-  <project name="pstore-clean" path="vendor/intel/pstore-clean" remote="github" revision="celadon/u/mr0/master" />
-  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="celadon/u/mr0/master" />
-  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="celadon/u/mr0/master" />
-  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/u/mr0/master"/>
-  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="celadon/u/mr0/master" />
-  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="celadon/u/mr0/master" />
-  <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="celadon/u/mr0/master" />
+  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="celadon/u/core" />
+  <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" remote="github" revision="celadon/u/core"/>
+  <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="celadon/u/core" />
+  <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="celadon/u/core" />
+  <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/u/core" />
+  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="celadon/u/core" />
+  <project name="efiwrapper" path="hardware/intel/efiwrapper" remote="github" revision="celadon/u/core" />
+  <project name="coreboot" path="hardware/intel/external/coreboot" remote="github" revision="celadon/u/core" />
+  <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="celadon/u/core"/>
+  <project name="log_capture" path="vendor/intel/tools/log_capture" remote="github" revision="celadon/u/core"/>
+  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="celadon/u/core" />
+  <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="celadon/u/core"/>
+  <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="celadon/u/core"/>
+  <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="celadon/u/core"/>
+  <project name="camera-vhal" path="vendor/intel/external/project-celadon/camera-vhal" remote="github" revision="celadon/u/core" />
+  <project name="MediaSDK_C2" path="vendor/intel/mediasdk_c2" remote="github" revision="celadon/u/core" />
+  <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="celadon/u/core"/>
+  <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="celadon/u/core"/>
+  <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="celadon/u/core" />
+  <project name="powerhal" path="hardware/intel/power" remote="github" revision="celadon/u/core" />
+  <project name="pstore-clean" path="vendor/intel/pstore-clean" remote="github" revision="celadon/u/core" />
+  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="celadon/u/core"/>
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="celadon/u/core" />
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="celadon/u/core" />
+  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="celadon/u/core"/>
+  <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="celadon/u/core"/>
+  <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/u/core"/>
+  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="celadon/u/core" />
+  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="celadon/u/core" />
+  <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="celadon/u/core" />
 
   <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="github" revision="9606094cbbdfa8d5e54de9d43eeb100c05cf72e8"/>
 
-  <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="celadon/u/mr0/master"/>
+  <project name="trusty-release-binaries" path="vendor/intel/fw/trusty-release-binaries" remote="github" revision="celadon/u/core"/>
 
 
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="celadon/u/mr0/master" />
-  <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="celadon/u/mr0/master" />
-  <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer"  remote="github" revision="celadon/u/mr0/master" />
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="celadon/u/core" />
+  <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="celadon/u/core" />
+  <project name="drm-hwcomposer" path="vendor/intel/external/drm-hwcomposer"  remote="github" revision="celadon/u/core" />
 
-  <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="celadon/u/mr0/master" />
-  <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="celadon/u/mr0/master" />
-  <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="celadon/u/mr0/master" />
-  <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="celadon/u/mr0/master" />
-  <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="celadon/u/mr0/master" />
+  <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="celadon/u/core" />
+  <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="celadon/u/core" />
+  <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="celadon/u/core" />
+  <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="celadon/u/core" />
+  <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="celadon/u/core" />
 
-  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/u/mr0/master" />
-  <project name="linux-intel-lts2022" path="kernel/linux-intel-lts2022" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="celadon/u/mr0/master" />
-  <project name="linux-intel-lts2022-chromium" path="kernel/lts2022-chromium" remote="github" revision="celadon/u/mr0/master"/>
-  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/u/mr0/master" />
-  <project name="libva" path="hardware/intel/external/libva" remote="github" revision="celadon/u/mr0/master" />
-  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="celadon/u/mr0/master" />
-  <project name="libvpl" path="vendor/intel/external/onevpl" remote="github" revision="celadon/u/mr0/master" />
-  <project name="vpl-gpu-rt" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="celadon/u/mr0/master" />
-  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="celadon/u/mr0/master" />
-  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="celadon/u/mr0/master" />
-  <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="celadon/u/mr0/master" />
+  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/u/core" />
+  <project name="linux-intel-lts2022" path="kernel/linux-intel-lts2022" remote="github" revision="celadon/u/core"/>
+  <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="celadon/u/core" />
+  <project name="linux-intel-lts2022-chromium" path="kernel/lts2022-chromium" remote="github" revision="celadon/u/core"/>
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/u/core" />
+  <project name="libva" path="hardware/intel/external/libva" remote="github" revision="celadon/u/core" />
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="celadon/u/core" />
+  <project name="libvpl" path="vendor/intel/external/onevpl" remote="github" revision="celadon/u/core" />
+  <project name="vpl-gpu-rt" path="vendor/intel/external/onevpl-intel-gpu" remote="github" revision="celadon/u/core" />
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="celadon/u/core" />
+  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="celadon/u/core" />
+  <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="celadon/u/core" />
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20240709"/>
-  <project name="kernel-modules" path="kernel/modules" remote="github" revision="celadon/u/mr0/master"/>
+  <project name="kernel-modules" path="kernel/modules" remote="github" revision="celadon/u/core"/>
 
 </manifest>
