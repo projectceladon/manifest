@@ -17,7 +17,7 @@
   <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="celadon/u/core" />
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="celadon/u/core" />
   <project name="hdcp" path="hardware/intel/external/media/hdcp" remote="github" revision="celadon/u/core" />
-  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="celadon/u/core" />
+  <project name="kernelflinger" path="hardware/intel/kernelflinger" remote="github" revision="2cfacb33c45b83ad9b7a77a796de5841d78bf411" />
   <project name="efiwrapper" path="hardware/intel/efiwrapper" remote="github" revision="celadon/u/core" />
   <project name="coreboot" path="hardware/intel/external/coreboot" remote="github" revision="celadon/u/core" />
   <project name="libdmi" path="vendor/intel/libdmi" remote="github" revision="celadon/u/core"/>
