@@ -59,9 +59,11 @@
   <project name="vm-manager-binaries" path="device/intel/civ/host/vm-manager-binaries" remote="github" revision="celadon/u/core" />
 
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="celadon/u/core" />
+  <project name="linux-intel-lts2021" path="kernel/linux-intel-lts2021" remote="github" revision="celadon/u/core"/>
   <project name="linux-intel-lts2022" path="kernel/linux-intel-lts2022" remote="github" revision="celadon/u/core"/>
   <project name="linux-intel-lts2023" path="kernel/linux-intel-lts2023" remote="github" revision="412d9d73eb15ae9bdb14023735071d2b791acdf5"/>
   <project name="clipboard-agent" path="vendor/intel/external/clipboard-agent" remote="github" revision="celadon/u/core" />
+  <project name="linux-intel-lts2021-chromium" path="kernel/lts2021-chromium" remote="github" revision="celadon/u/core"/>
   <project name="linux-intel-lts2022-chromium" path="kernel/lts2022-chromium" remote="github" revision="celadon/u/core"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="celadon/u/core" />
   <project name="libva" path="hardware/intel/external/libva" remote="github" revision="celadon/u/core" />
