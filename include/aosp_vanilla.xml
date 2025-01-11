@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r3"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
