@@ -81,4 +81,5 @@
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="upstream_main" />
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20240709" />
   <project name="kernel-modules" path="kernel/modules" remote="github" revision="master"/>
+  <project name="oneapi-integration" path="vendor/intel/oneapi-integration" remote="github" revision="main" />
 </manifest>
