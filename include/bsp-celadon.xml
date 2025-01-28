@@ -78,7 +78,7 @@
   <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="v2.4.115" />
   <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="main" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="upstream_main" />
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20240709" />
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernel.googlesource" revision="refs/tags/20241210" />
   <project name="kernel-modules" path="kernel/modules" remote="github" revision="master"/>
   <project name="oneapi-integration" path="vendor/intel/oneapi-integration" remote="github" revision="main" />
   <project name="linux-npu-driver" path="hardware/intel/external/linux-npu-driver" remote="github.intel" revision="refs/tags/v1.8.0"/>
