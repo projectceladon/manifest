@@ -64,6 +64,7 @@
   <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
   <project name="linux-intel-lts2023-chromium" path="kernel/lts2023-chromium" remote="github" revision="main"/>
   <project name="linux-intel-lts2023" path="kernel/linux-intel-lts2023" remote="github" revision="main"/>
+  <project name="linux-intel-lts2024-android" path="kernel/lts2024-android" remote="github" revision="main"/>
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="master">
     <annotation name="readonly" value="true"/>
   </project>
