@@ -39,7 +39,6 @@
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="master"/>
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
-  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="github" revision="master"/>
   <project name="thermal_daemon" path="external/thermal_daemon" remote="github" revision="master"/>
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master"/>
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="master" />
